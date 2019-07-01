@@ -1,0 +1,9 @@
+global !p
+def fix_indent(snip):
+  vim.eval('feedkeys("\<c-f>")')
+endglobal
+
+post_expand "fix_indent(snip)"
+snippet it "Individual item" b
+\item $0
+endsnippet

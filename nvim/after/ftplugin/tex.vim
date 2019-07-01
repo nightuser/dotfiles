@@ -1,0 +1,1 @@
+setlocal spell indentexpr& indentkeys&
