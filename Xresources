@@ -1,0 +1,28 @@
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.C-M-v: builtin-string:
+URxvt.keysym.C-M-c: builtin-string:
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.scrollBar: false
+URxvt.font: xft:Iosevka Term:size=12:Regular
+URxvt.boldFont: xft:Iosevka Term:size=12:Bold
+URxvt.italicFont: xft:Iosevka Term:size=12:Italic
+URxvt.boldItalicFont: xft:Iosevka Term:size=12:Bold:Italic
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline fg2
+! URxvt.perl-ext-common: tabbed
+URxvt.intensityStyles: false
+URxvt.saveLines: 8000
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+
+! Xft*antialias:  true
+! Xft*hinting:    true
+! Xft*rgba:       rgb
+! Xft*autohint:   false
+! Xft*hintstyle:  hintfull
+! Xft*lcdfilter:  lcddefault
