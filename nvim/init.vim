@@ -7,14 +7,13 @@ Plug 'tpope/vim-fugitive'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'luochen1990/rainbow'
-Plug 'semanser/vim-outdated-plugins'
+" is extremely annoying Plug 'semanser/vim-outdated-plugins'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'lyuts/vim-rtags', { 'for': ['c', 'cpp'] }
 "Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'lervag/vimtex', { 'for': ['tex', 'plaintex', 'context'] }
-Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
+" temporary disable Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'JuliaEditorSupport/julia-vim'
 call plug#end()
